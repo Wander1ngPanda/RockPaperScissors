@@ -11,7 +11,7 @@ public class Human extends Player{
         System.out.println(this.name + ": What would you like to throw?");
         for (String item:
              options.keySet()) {
-            System.out.println(item.charAt(0) + " :" + item);
+            System.out.println(item.charAt(0) + ": " + item);
         }
         System.out.println();
         String input;
